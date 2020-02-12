@@ -18,7 +18,7 @@ class ContactServiceTest {
 	static void init() {
 		
 		
-		service = Factory.getContactService(Instance.MOCK);
+		service = Factory.getContactService(Instance.REAL); //ou Intance.MOCK
 		
 		
 		//on je peut pas les mettre sici, il est question de crere une fabrique por cela
